@@ -20,6 +20,15 @@ Dakama
 
 Build scalable games and apps with a production ready server used by ambitious game studios and app developers [all around the world](https://heroiclabs.com/customers/). Have a look at the [documentation](https://heroiclabs.com/docs) and join the [developer community](https://forum.heroiclabs.com) for more info.
 
+## Distributed features
+
+| Features   |      Distributed(Y/N)      | Ability      |
+|----------|:-------------:|:-------------|
+| Distributed Session |  N | Users can login into one server and access to the rpcs of any server|
+| Distributed stream |    N   | This enables distributed chat, notification|
+| Disbuted Leaderboard | N | The leaderboard and leaderboard records cache are replicated |
+| Distributed Storage Indexe | N | The storage indexes are replicated |
+
 ## Getting Started
 
 The server is simple to setup and run for local development and can be deployed to any cloud provider. See the [deployment notes](#deployment) for recommendations on how to deploy the project for production. Nakama server requires CockroachDB or another Postgres wire-compatible server as it's database.
