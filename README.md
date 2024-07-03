@@ -1,11 +1,7 @@
-![Nakama](.github/logo.png?raw=true "Nakama logo")
+Dakama
 ======
 
-[![GitHub release](https://img.shields.io/github/release/heroiclabs/nakama.svg)](https://heroiclabs.com/docs/nakama/getting-started/install/)
-[![Forum](https://img.shields.io/badge/forum-online-success.svg)](https://forum.heroiclabs.com)
-[![License](https://img.shields.io/github/license/heroiclabs/nakama.svg)](https://github.com/heroiclabs/nakama/blob/master/LICENSE)
-
-> Distributed server for social and realtime games and apps.
+> A real distributed server for social and realtime games and apps.
 
 ## Features
 
@@ -88,7 +84,7 @@ Response:
 
 There's a number of official [client libraries](https://github.com/heroiclabs) available on GitHub with [documentation](https://heroiclabs.com/docs). The current platform/language support includes: .NET (in C#), Unity engine, JavaScript, Java (with Android), Unreal engine, Godot, Defold, and Swift (with iOS). If you'd like to contribute a client or request one let us know.
 
-## Nakama Console
+## Dakama Console
 
 The server provides a web UI which teams can use to inspect various data stored through the server APIs, view lightweight service metrics, manage player data, update storage objects, restrict access to production with permission profiles, and gain visibility into realtime features like active multiplayer matches. There is no separate installation required as it is embedded as part of the single server binary.
 
@@ -107,12 +103,6 @@ Nakama can be deployed to any cloud provider such as Google Cloud, Azure, AWS, D
 
 The recommended minimum production infrastructure for CockroachDB is outlined in [these docs](https://www.cockroachlabs.com/docs/stable/recommended-production-settings.html#basic-hardware-recommendations) and Nakama can be run on instance types as small as "g1-small" on Google Cloud although we recommend a minimum of "n1-standard-1" in production. The specific hardware requirements will depend on what features of the server are used. Reach out to us for help and advice on what servers to run.
 
-### Heroic Cloud
-
-You can support development, new features, and maintainance of the server by using the Heroic Labs' [Heroic Cloud](https://heroiclabs.com/heroic-cloud/) for deployment. This service handles the uptime, replication, backups, logs, data upgrades, and all other tasks involved with production server environments.
-
-Have a look at our [Heroic Cloud](https://heroiclabs.com/heroic-cloud/) service for more details.
-
 ## Contribute
 
 The development roadmap is managed as GitHub issues and pull requests are welcome. If you're interested to add a feature which is not mentioned on the issue tracker please open one to create a discussion or drop in and discuss it in the [community forum](https://forum.heroiclabs.com).
@@ -124,7 +114,7 @@ All dependencies required for a build are vendored as part of the Go project. We
 1. Download the source tree.
 
    ```shell
-   git clone "https://github.com/heroiclabs/nakama" nakama
+   git clone "https://github.com/yaohuiwu/dakama" nakama
    cd nakama
    ```
 
