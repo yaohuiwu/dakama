@@ -183,3 +183,8 @@ all the tests, and drop the environment afterwards.
 ### License
 
 This project is licensed under the [Apache-2 License](https://github.com/heroiclabs/nakama/blob/master/LICENSE).
+
+## Support the author
+
+<img src=".github/zhi_pay.jpg?raw=true" title="Zhifubao" width="100" align="center">
+<img src=".github/wechat_pay.jpg?raw=true" title="Wechat" width="115" align="center">
